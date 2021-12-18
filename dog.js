@@ -39,7 +39,7 @@ this.showSpeed = function(){
 this.toString = function () {
     return document.write(`  ${this.name}  ${this.breed}  ${this.weight} kg  ${ this.speed} <br>`);
   
-},
+}
 // this.age = 0,
 // this.setAge = function (a) {
 //     if (a > 0) {
@@ -52,7 +52,7 @@ this.toString = function () {
 //   this.getAge = function () {
 //     return age;
 //   };
-// };
+};
   let  simon =new Dog ("Simon","Mixed",20);
   let limo =new Dog ("Limo","Mixed",25);
   let spot =new Dog ("Spot","Mixed",30);
