@@ -1,12 +1,3 @@
-
-// let simon = {
-//   name: |"Simon",
-//   age: 6,
-//   breed:"mix",
-//  bark:function(){
-// alert("bark")
-//  }
-// };
 function getRandomInt(max) {
     return Math.random() * max;
   }
@@ -40,18 +31,6 @@ this.toString = function () {
     return document.write(`  ${this.name}  ${this.breed}  ${this.weight} kg  ${ this.speed} <br>`);
   
 }
-// this.age = 0,
-// this.setAge = function (a) {
-//     if (a > 0) {
-//       age = a;
-//     } else {
-//       alert("Эта собака, очевидно, еще не появилась на свет...");
-//     }
-//   };
-
-//   this.getAge = function () {
-//     return age;
-//   };
 };
   let  simon =new Dog ("Simon","Mixed",20);
   let limo =new Dog ("Limo","Mixed",25);
